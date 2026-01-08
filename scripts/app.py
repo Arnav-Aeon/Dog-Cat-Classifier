@@ -10,7 +10,7 @@ from PIL import Image
 # Cache the model so it loads only once
 @st.cache_resource
 def load_model():
-    return keras.models.load_model("models/cat_dog.h5")
+    return keras.models.load_model("Model/cat_dog.h5")
 
 model = load_model()
 
